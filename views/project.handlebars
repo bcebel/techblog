@@ -1,0 +1,22 @@
+<div class='text-center'>
+  hello
+
+  <h2>{{user.name}}</h2>
+  <p>{{{get_emoji}}}</p>
+  <p>{{description}}</p>
+  <p>Created by {{user.name}} on {{format_date date_created}}</p>
+  <p>
+    <span for='img' aria-label='money'>💲</span>
+    <span class='dollar-amount'>{{format_amount needed_funding}}</span>
+    needed
+  </p>
+  <p>
+    <button class='btn btn-primary'>Respond to this post</button>
+  </p>
+  {{#each responses as |response|}}
+    {{response.description}}
+    {{response.name}}
+  {{/each}}
+</div>
+
+<script src='./js/response.js'></script>
