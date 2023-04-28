@@ -81,8 +81,30 @@ router.get('/login', (req, res) => {
     res.redirect('/profile');
     return;
   }
+});
 
-  res.render('login');
+router.get('/response/:id', async (req, res) => {
+  try {
+    const responseData = await Project.findAll({
+      where: { id: req.params.id },
+      include: [
+        {
+          model: User,
+          attributes: ['name'],
+        },
+        {
+          model: Response,
+        },
+      ],
+    });
+
+    res.render('response', {
+      ...responseData,
+      logged_in: req.session.logged_in,
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
 module.exports = router;

@@ -11,7 +11,9 @@
     needed
   </p>
   <p>
-    <button class='btn btn-primary'>Respond to this post</button>
+    <a href="/response/{{id}}"">
+      <button class='btn btn-primary'>Respond to this post data-id='{{project.id}}'
+      </button></a>
   </p>
   {{#if responses.length}}
     <p><b>Comments</b></p>
@@ -21,5 +23,3 @@
     {{response.name}}
   {{/each}}
 </div>
-
-<script src='./js/response.js'></script>

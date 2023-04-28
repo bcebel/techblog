@@ -14,12 +14,13 @@ router.post('/', withAuth, async (req, res) => {
     res.status(400).json(err);
   }
 });
-/*
+
 router.post('/:id', withAuth, async (req, res) => {
   try {
     const newResponse = await Response.create({
       ...req.body,
       user_id: req.session.user_id,
+              id: req.params.id,
     });
 
     res.status(200).json(newProject);
@@ -27,7 +28,8 @@ router.post('/:id', withAuth, async (req, res) => {
     res.status(400).json(err);
   }
 });
-*/
+
+
 router.delete('/:id', withAuth, async (req, res) => {
   try {
     const projectData = await Project.destroy({
