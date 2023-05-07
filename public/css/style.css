@@ -19,7 +19,8 @@ header,
 }
 
 .dollar-amount {
-  color: #056605;
+  font-size: medium;
+  color: #ff5988;
   font-weight: bold;
   margin-left: -5px;
 }

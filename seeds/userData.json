@@ -1,17 +1,17 @@
 [
   {
-    "name": "Sal",
-    "email": "sal@hotmail.com",
-    "password": "password12345"
+    "name": "Mr. Anderson",
+    "email": "sales@matrix.com",
+    "password": "everybodyhatesneo123"
   },
   {
-    "name": "Lernantino",
-    "email": "lernantino@gmail.com",
-    "password": "password12345"
+    "name": "Bill Lumbergh",
+    "email": "report@tps.com",
+    "password": "MYPRSHE911"
   },
   {
-    "name": "Amiko",
-    "email": "amiko2k20@aol.com",
-    "password": "password12345"
+    "name": "Sarah Connor",
+    "email": "hr@skynet.com",
+    "password": "T1000Cyberdyne"
   }
 ]

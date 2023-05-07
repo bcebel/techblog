@@ -26,7 +26,7 @@ const seedDatabase = async () => {
       name: users[2].name,
       response_id: 3,
       id: 2,
-      user_id: users[2].user_id,
+      user_id: users[Math.floor(Math.random() * users.length)].id,
     });
     process.exit(0);
   }
