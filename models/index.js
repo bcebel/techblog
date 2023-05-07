@@ -1,5 +1,5 @@
 const User = require('./User');
-const Response = require('./Users/Brian/Desktop/bootcamp/projects/Module-14/techblog/models/Response');
+const Response = require('./Response');
 const Project = require('./Project');
 
 User.hasMany(Project, {
