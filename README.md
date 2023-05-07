@@ -16,8 +16,6 @@ This program is a tech blog that allows for user comments.
 
 - [License](#license)
 
-- [Contributing](#contributing)
-
 - [Credits](#credits)
 
 - [Questions](#questions)
@@ -34,10 +32,6 @@ The project is deployed on heroku here https://sleepy-caverns-33323.herokuapp.co
 ## License
 
 MIT
-
-## Contributing
-
-Feel free to contribute!
 
 ## Credits
 
