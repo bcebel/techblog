@@ -1,6 +1,6 @@
 const User = require('./User');
+const Response = require('./Users/Brian/Desktop/bootcamp/projects/Module-14/techblog/models/Response');
 const Project = require('./Project');
-const Response = require('./response.js');
 
 User.hasMany(Project, {
   foreignKey: 'user_id',
