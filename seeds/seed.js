@@ -24,6 +24,7 @@ const seedDatabase = async () => {
     await Response.create({
       ...response,
       name: users[2].name,
+      response_id: 3,
       id: 2,
       user_id: users[2].user_id,
     });

@@ -12,7 +12,10 @@ Project.belongsTo(User, {
 });
 
 Project.hasMany(Response, {
-  foreignKey: 'id',
+  foreignKey: 'project_id',
 });
 
+User.hasMany(Response, {
+  foreignKey: 'user_id',
+});
 module.exports = { User, Project, Response };

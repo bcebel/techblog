@@ -20,6 +20,7 @@ router.post('/:id', withAuth, async (req, res) => {
     const newResponse = await Response.create({
       ...req.body,
       user_id: req.session.user_id,
+      
               id: req.params.id,
     });
 

@@ -10,10 +10,6 @@ Response.init(
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
-      references: {
-        model: 'project',
-        key: 'id',
-      },
     },
     name: {
       type: DataTypes.STRING,
@@ -27,8 +23,19 @@ Response.init(
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
+    project_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'project',
+        key: 'id',
+      },
+    },
     user_id: {
       type: DataTypes.INTEGER,
+      references: {
+        model: 'user',
+        key: 'id',
+      },
     },
   },
   {
