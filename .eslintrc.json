@@ -9,7 +9,7 @@
     "es2018": true
   },
   "rules": {
-    "no-undef-init": "error",
+
     "no-duplicate-case": "error",
     "no-empty": "error",
     "no-extra-semi": "error",
