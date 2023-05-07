@@ -10,7 +10,7 @@ module.exports = {
   get_emoji: () => {
     const randomNum = Math.random();
 
-    // Return a random emoji
+    // Return random emoji
     if (randomNum > 0.7) {
       return `<span for="img" aria-label="lightbulb">Ø</span>`;
     } else if (randomNum > 0.4) {
