@@ -1,17 +1,184 @@
 [
+  
   {
-    "name": "Tech Blogs are Great",
-    "description": "Why are tech blogs so great? This is a post about why they are so great.",
+    "name": "Built In Austin",
+    "description": "Discover the vibrant community of Austin startups and tech companies. Explore jobs, research companies, and stay updated on the tech scene.",
+    "needed_funding": "TechJobs"
+  },
+  {
+    "name": "Austin Tech Week",
+    "description": "A 5-day celebration bringing Austin's brightest tech minds together. Join thousands in shaping the future of innovation.",
+    "needed_funding": "TechEcosystem"
+  },
+  {
+    "name": "Austin Technology Incubator",
+    "description": "UT Austin's deep tech incubator is fueling innovation through Discovery to Impact. A launchpad for future breakthroughs.",
+    "needed_funding": "DeepTech"
+  },
+  {
+    "name": "Austin Tech Live",
+    "description": "Experience the best of Austin's startup and tech community through panels, pitches, and live-streamed events.",
+    "needed_funding": "StartupCommunity"
+  },
+  {
+    "name": "Top Austin Tech Companies",
+    "description": "From UL Solutions to John Deere, explore over 3,400 companies driving innovation in Austin.",
+    "needed_funding": "TechInnovation"
+  },
+  {
+    "name": "Austin's Tech Growth",
+    "description": "Why Austin remains a magnet for tech talent and companies: tax benefits, vibrant culture, and rapid growth.",
+    "needed_funding": "TechHub"
+  },
+  {
+    "name": "Skybox Datacenters",
+    "description": "Skybox fuels Austin's tech rise with state-of-the-art facilities for enterprise-grade data solutions.",
+    "needed_funding": "DataCenters"
+  },
+  {
+    "name": "Healthtech in Austin",
+    "description": "Austin's healthtech sector is revolutionizing healthcare through innovation and advanced technology.",
+    "needed_funding": "HealthTech"
+  },
+  {
+    "name": "Cybersecurity Jobs in Austin",
+    "description": "Secure your career with Austin's booming cybersecurity sector, offering endless opportunities.",
+    "needed_funding": "Cybersecurity"
+  },
+  {
+    "name": "Austin Tech Council",
+    "description": "A key player in fostering Austin's tech evolution and uniting leaders for a stronger future.",
+    "needed_funding": "TechLeadership"
+  },
+  {
+    "name": "Austin Evans",
+    "description": "From gaming PCs to smartphones, Austin Evans dives into the latest gadgets shaping the tech world.",
+    "needed_funding": "TechGadgets"
+  },
+  {
+    "name": "Biotech in Austin",
+    "description": "Austin is advancing biotech with cutting-edge research, new startups, and groundbreaking discoveries.",
+    "needed_funding": "Biotech"
+  },
+  {
+    "name": "Legal Tech in Austin",
+    "description": "Simplifying legal processes through innovative solutions—Austin's legal tech sector is thriving.",
+    "needed_funding": "LegalTech"
+  },
+  {
+    "name": "Marketing Tech in Austin",
+    "description": "Austin's marketing tech ecosystem is redefining how brands connect with audiences through data-driven strategies.",
+    "needed_funding": "MarketingTech"
+  },
+  {
+    "name": "Austin's Startup Scene",
+    "description": "Built In Austin spotlights startups redefining industries and creating new opportunities in the tech world.",
+    "needed_funding": "Startups"
+  },
+  {
+    "name": "AI Innovations in Austin",
+    "description": "Austin companies are leading the charge in artificial intelligence, transforming industries at scale.",
+    "needed_funding": "ArtificialIntelligence"
+  },
+  {
+    "name": "Austin's HR Tech",
+    "description": "Revolutionizing recruitment and workplace management with Austin's cutting-edge HR tech companies.",
+    "needed_funding": "HRTech"
+  },
+  {
+    "name": "E-commerce in Austin",
+    "description": "From logistics to customer experience, Austin startups are reshaping e-commerce for the modern era.",
+    "needed_funding": "Ecommerce"
+  },
+  {
+    "name": "Austin Tech Resilience",
+    "description": "From boom to cool-off, Austin's tech community continues to adapt and innovate for the future.",
+    "needed_funding": "TechGrowth"
+  },
+  {
+    "name": "Austin Tech Evolution",
+    "description": "Decades of innovation make Austin a cornerstone of tech progress in the U.S. and beyond.",
+    "needed_funding": "Innovation"
+  },
+  {
+    "name": "Austin's Academic Tech Impact",
+    "description": "UT Austin and ATI are advancing research and innovation through robust tech initiatives.",
+    "needed_funding": "AcademicTech"
+  },
+  {
+    "name": "Austin’s Deep Tech Focus",
+    "description": "ATI supports groundbreaking technologies in AI, clean energy, and more, driving Austin's future.",
+    "needed_funding": "DeepTech"
+  },
+  {
+    "name": "Austin: A Tech Powerhouse",
+    "description": "With thousands of startups and Fortune 500 companies, Austin is a beacon of technological growth.",
+    "needed_funding": "TechPowerhouse"
+  },
+  {
+    "name": "Austin’s Networking Scene",
+    "description": "Austin Tech Week offers unmatched opportunities to connect with innovators and industry leaders.",
+    "needed_funding": "Networking"
+  },
+  {
+    "name": "Austin Tech Jobs",
+    "description": "From startups to enterprise giants, Austin offers limitless opportunities in every tech sector.",
+    "needed_funding": "Careers"
+  },
+  {
+    "name": "Austin's Role in Clean Energy",
+    "description": "Tech companies in Austin are pioneering renewable energy solutions for a greener future.",
+    "needed_funding": "CleanEnergy"
+  },
+  {
+    "name": "Austin Tech Community",
+    "description": "A city where innovation meets collaboration, Austin is the ultimate tech destination.",
+    "needed_funding": "Community"
+  },
+  {
+    "name": "Austin’s Tax Benefits",
+    "description": "The city's favorable tax policies attract global tech giants and entrepreneurs alike.",
+    "needed_funding": "EconomicGrowth"
+  },
+  {
+    "name": "Austin Tech and AI",
+    "description": "Explore how artificial intelligence is shaping industries and empowering startups in Austin.",
+    "needed_funding": "AIRevolution"
+  },
+  {
+    "name": "Future of Austin Tech",
+    "description": "From biotech to cybersecurity, Austin continues to lead the way in tech innovation.",
+    "needed_funding": "FutureTech"
+  },
+
+  {
+    "name": "Austin TX Rules",
+    "description": "It is a great place to live, work, and play.",
+    "needed_funding": "Job"
+  },
+  {
+    "name": "Tech Startups",
+    "description": "Know any great startups I can help out at?",
+    "needed_funding": "ATX"
+  },
+  {
+    "name": "Austin TX Rules",
+    "description": "It is a great place to live, work, and play.",
+    "needed_funding": "Job"
+  },
+  {
+    "name": "This program uses the MVC design pattern",
+    "description": "It uses handlebars, express, and sequelize.",
     "needed_funding": "SQL"
   },
   {
-    "name": "Tech blogs are amazing.",
-    "description": "Tech blogs are the best ever. This is a post about why they are so great.",
-    "needed_funding": "mongoDB"
+    "name": "Vanilla JS kinda does it all",
+    "description": "It is amazing what some js can do, also it is deployed on Heroku.",
+    "needed_funding": "heroku"
   },
   {
-    "name": "Tech blogs are better than the best",
-    "description": "This a tech blog post about why tech blogs rule so much.",
-    "needed_funding": "node.js"
+    "name": "Bcrypt",
+    "description": "Doesn't it also encrypt the password?",
+    "needed_funding": "encription"
   }
 ]
